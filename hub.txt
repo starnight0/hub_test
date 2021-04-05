@@ -18,21 +18,20 @@ itemRgb on
 
 track comp
 compositeTrack on
-parent pcomp
 shortLabel CZL_comp
 type bigBed 9
 allButtonPair on
 
 
   track comp1
-  parent pcomp on
+  parent comp on
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
   visibility pack
   itemRgb on
   
   track comp2
-  parent pcomp on
+  parent comp on
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
   visibility pack
