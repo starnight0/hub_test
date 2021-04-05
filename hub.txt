@@ -25,7 +25,8 @@ allButtonPair on
 subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
 subGroup2 S Stage Dome=Dome Epi75=Epi75
 dimensions dimX=T dimY=S
-dimensionTchecked CHMM
+filterComposite dimX dimY
+dimensionXchecked CHMM
 sortOrder T=+ S=+
 
   track comp1
