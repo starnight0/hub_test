@@ -15,3 +15,24 @@ longLabel test_bigBed_long
 type bigBed 9
 visibility pack
 itemRgb on
+
+track comp
+compositeTrack on
+parent comp
+shortLabel CZL_comp
+type bigBed 9
+allButtonPair on
+itemRgb on
+
+  track comp1
+  parent comp on
+  #bigDataUrl danRer10/Dome_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
+  visibility pack
+  
+  track comp2
+  parent comp on
+  #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
+  visibility pack
+  
