@@ -24,6 +24,8 @@ type bigBed 9
 allButtonPair on
 
   track comp1
+  shortLabel CZL_comp1
+  longLabel CZL_comp1_long
   parent comp on
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
@@ -31,6 +33,8 @@ allButtonPair on
   itemRgb on
   
   track comp2
+  shortLabel CZL_comp2
+  longLabel CZL_comp2_long
   parent comp on
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
