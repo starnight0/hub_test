@@ -8,10 +8,8 @@ descriptionUrl hubDescription.html
 genome danRer10
 
 track test5
-bigDataUrl test.bb
+bigDataUrl danRer10/Dome_ChromHMM.1.bb
 shortLabel test_bigBed
 longLabel test_bigBed_long
 type bigBed 12
 visibility pack
-searchIndex name
-searchTrix test.ix
