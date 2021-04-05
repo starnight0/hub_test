@@ -30,6 +30,7 @@ allButtonPair on
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
   visibility pack
+  type bigBed 9
   itemRgb on
   
   track comp2
@@ -39,6 +40,7 @@ allButtonPair on
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
   visibility pack
+  type bigBed 9
   itemRgb on
 
   track comp3
@@ -48,6 +50,7 @@ allButtonPair on
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
   visibility pack
+  type bigBed 9
   itemRgb on
   
   track comp4
@@ -57,4 +60,5 @@ allButtonPair on
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
   visibility pack
+  type bigBed 9
   itemRgb on
