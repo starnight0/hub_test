@@ -22,11 +22,14 @@ shortLabel CZL_comp
 longLabel CZL_comp_long
 type bigBed 9
 allButtonPair on
+subGruop1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
+subGroup2 S Stage Dome=Dome Epi75=Epi75
 
   track comp1
   shortLabel CZL_comp1
   longLabel CZL_comp1_long
   parent comp on
+  subGroups T=CHMM S=Dome
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
   visibility pack
@@ -37,6 +40,7 @@ allButtonPair on
   shortLabel CZL_comp2
   longLabel CZL_comp2_long
   parent comp on
+  subGroups T=CHMM S=Epi75
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
   visibility pack
@@ -47,6 +51,7 @@ allButtonPair on
   shortLabel CZL_comp3
   longLabel CZL_comp3_long
   parent comp on
+  subGroups T=cPADRE S=Dome
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
   visibility pack
@@ -57,6 +62,7 @@ allButtonPair on
   shortLabel CZL_comp4
   longLabel CZL_comp4_long
   parent comp on
+  subGroups T=cPADRE S=Epi75
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
   visibility pack
