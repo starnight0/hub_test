@@ -11,5 +11,5 @@ track test5
 bigDataUrl danRer10/Dome_ChromHMM.1.bb
 shortLabel test_bigBed
 longLabel test_bigBed_long
-type bigBed 12
+type bigBed 9
 visibility pack
