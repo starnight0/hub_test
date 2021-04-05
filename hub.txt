@@ -40,3 +40,21 @@ allButtonPair on
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
   visibility pack
   itemRgb on
+
+  track comp3
+  shortLabel CZL_comp3
+  longLabel CZL_comp3_long
+  parent comp on
+#bigDataUrl danRer10/Dome_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
+  visibility pack
+  itemRgb on
+  
+  track comp4
+  shortLabel CZL_comp4
+  longLabel CZL_comp4_long
+  parent comp on
+#bigDataUrl danRer10/Epi75_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
+  visibility pack
+  itemRgb on
