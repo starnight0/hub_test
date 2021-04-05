@@ -19,6 +19,7 @@ itemRgb on
 track comp
 compositeTrack on
 shortLabel CZL_comp
+longLabel CZL_comp_long
 type bigBed 9
 allButtonPair on
 
