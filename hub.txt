@@ -22,7 +22,6 @@ shortLabel CZL_comp
 type bigBed 9
 allButtonPair on
 
-
   track comp1
   parent comp on
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
