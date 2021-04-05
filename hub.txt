@@ -8,7 +8,8 @@ descriptionUrl hubDescription.html
 genome danRer10
 
 track test5
-bigDataUrl danRer10/Dome_ChromHMM.1.bb
+#bigDataUrl danRer10/Dome_ChromHMM.1.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
 shortLabel test_bigBed
 longLabel test_bigBed_long
 type bigBed 9
