@@ -26,7 +26,7 @@ subGruop1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADRE
 subGroup2 S Stage Dome=Dome Epi75=Epi75
 
   track comp1
-  shortLabel CZL_comp1
+  shortLabel Dome_CHMM
   longLabel CZL_comp1_long
   parent comp on
   subGroups T=CHMM S=Dome
@@ -37,7 +37,7 @@ subGroup2 S Stage Dome=Dome Epi75=Epi75
   itemRgb on
   
   track comp2
-  shortLabel CZL_comp2
+  shortLabel Epi75_CHMM
   longLabel CZL_comp2_long
   parent comp on
   subGroups T=CHMM S=Epi75
@@ -48,7 +48,7 @@ subGroup2 S Stage Dome=Dome Epi75=Epi75
   itemRgb on
 
   track comp3
-  shortLabel CZL_comp3
+  shortLabel Dome_cPADRE
   longLabel CZL_comp3_long
   parent comp on
   subGroups T=cPADRE S=Dome
@@ -59,7 +59,7 @@ subGroup2 S Stage Dome=Dome Epi75=Epi75
   itemRgb on
   
   track comp4
-  shortLabel CZL_comp4
+  shortLabel Epi75_cPADRE
   longLabel CZL_comp4_long
   parent comp on
   subGroups T=cPADRE S=Epi75
