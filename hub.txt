@@ -184,9 +184,9 @@ sortOrder T=+ S=+ V=+
   type bigBed 9
   viewUi on
   
-  track comp11
-  shortLabel Dome_CHMM11
-  longLabel Dome_CHMM_long11
+  track comp21
+  shortLabel Dome_CHMM21
+  longLabel Dome_CHMM_long21
   parent comp2_view on 
   subGroups T=CHMM S=Dome V=REG
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
@@ -195,9 +195,9 @@ sortOrder T=+ S=+ V=+
   type bigBed 9
   itemRgb on
   
-  track comp21
-  shortLabel Epi75_CHMM21
-  longLabel Epi75_CHMM_long21
+  track comp22
+  shortLabel Epi75_CHMM22
+  longLabel Epi75_CHMM_long22
   parent comp2_reg on
   subGroups T=CHMM S=Epi75 V=REG
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
@@ -206,9 +206,9 @@ sortOrder T=+ S=+ V=+
   type bigBed 9
   itemRgb on
 
-  track comp31
-  shortLabel Dome_cPADRE31
-  longLabel Dome_cPADRE_long31
+  track comp23
+  shortLabel Dome_cPADRE23
+  longLabel Dome_cPADRE_long23
   parent comp2_reg on
   subGroups T=cPADRE S=Dome V=REG
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
@@ -217,9 +217,9 @@ sortOrder T=+ S=+ V=+
   type bigBed 9
   itemRgb on
   
-  track comp41
-  shortLabel Epi75_cPADRE41
-  longLabel Epi75_cPADRE_long41
+  track comp24
+  shortLabel Epi75_cPADRE24
+  longLabel Epi75_cPADRE_long24
   parent comp2_reg on
   subGroups T=cPADRE S=Epi75 V=REG
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
