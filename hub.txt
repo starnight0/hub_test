@@ -26,25 +26,8 @@ subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADRE
 subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h LongPec=LongPec
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
+sortOrder T=+ S=+
 
-track pcomp1
-compositeTrack on
-shortLabel pcomp1
-longLabel pcomp1
-parent comp on
-type bigBed 9
-  
-  track comp0
-  shortLabel Dome_CHMM0
-  longLabel Dome_CHMM0_long
-  parent pcomp1 on
-  subGroups T=CHMM S=Dome
-#bigDataUrl danRer10/Dome_ChromHMM.1.bb
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
-  visibility pack
-  type bigBed 9
-  itemRgb on
-  
   
   track comp1
   shortLabel Dome_CHMM
