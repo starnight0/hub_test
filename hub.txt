@@ -161,7 +161,7 @@ sortOrder T=+ S=+
   type bigBed 9
   itemRgb on
   
-track comp2
+track comp2v
 compositeTrack on
 shortLabel CZL_comp2
 longLabel CZL_comp2_long
@@ -176,7 +176,7 @@ dimensionXchecked CHMM
 sortOrder T=+ S=+ V=+
 
   track comp2_reg
-  parent comp2
+  parent comp2v
   view REG
   shortLabel comp2_reg
   longLabel comp2_reg_long
