@@ -26,7 +26,6 @@ subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADRE
 subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h LongPec=LongPec
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
-sortOrder T=+ S=+
 
 track pcomp1
 compositeTrack on
