@@ -187,7 +187,7 @@ sortOrder T=+ S=+ V=+
   track comp21
   shortLabel Dome_CHMM21
   longLabel Dome_CHMM_long21
-  parent comp2_view on 
+  parent comp2_reg on 
   subGroups T=CHMM S=Dome V=REG
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
