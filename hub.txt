@@ -98,7 +98,7 @@ sortOrder T=+ S=+
   shortLabel Hpf12_CHMM
   longLabel Hpf12_CHMM_long
   parent comp on
-  subGroups T=cPADRE S=Hpf12
+  subGroups T=CHMM S=Hpf12
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
   visibility pack
@@ -110,6 +110,17 @@ sortOrder T=+ S=+
   longLabel Hpf12_cPADRE_long
   parent comp on
   subGroups T=cPADRE S=Hpf12
+#bigDataUrl danRer10/Epi75_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp9
+  shortLabel Hpf12_PADRE
+  longLabel Hpf12_PADRE_long
+  parent comp on
+  subGroups T=PADRE S=Hpf12
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
   visibility pack
