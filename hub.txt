@@ -33,6 +33,7 @@ compositeTrack on
 shortLabel pcomp1
 longLabel pcomp1
 parent comp on
+type bigBed 9
   
   track comp0
   shortLabel Dome_CHMM0
