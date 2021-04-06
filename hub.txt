@@ -23,7 +23,7 @@ longLabel CZL_comp_long
 type bigBed 9
 allButtonPair on
 subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
-subGroup2 S Stage Dome=Dome Epi75=Epi75
+subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
 sortOrder T=+ S=+
@@ -66,6 +66,50 @@ sortOrder T=+ S=+
   longLabel Epi75_cPADRE_long
   parent comp on
   subGroups T=cPADRE S=Epi75
+#bigDataUrl danRer10/Epi75_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp5
+  shortLabel Dome_PADRE
+  longLabel Dome_PADRE_long
+  parent comp on
+  subGroups T=PADRE S=Dome
+#bigDataUrl danRer10/Dome_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp6
+  shortLabel Epi75_PADRE
+  longLabel Epi75_PADRE_long
+  parent comp on
+  subGroups T=PADRE S=Epi75
+#bigDataUrl danRer10/Epi75_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp7
+  shortLabel Hpf12_CHMM
+  longLabel Hpf12_CHMM_long
+  parent comp on
+  subGroups T=cPADRE S=Hpf12
+#bigDataUrl danRer10/Dome_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp8
+  shortLabel Hpf12_cPADRE
+  longLabel Hpf12_cPADRE_long
+  parent comp on
+  subGroups T=cPADRE S=Hpf12
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
   visibility pack
