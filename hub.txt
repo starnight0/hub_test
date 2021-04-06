@@ -160,3 +160,70 @@ sortOrder T=+ S=+
   visibility pack
   type bigBed 9
   itemRgb on
+  
+track comp2
+compositeTrack on
+shortLabel CZL_comp2
+longLabel CZL_comp2_long
+visibility dense
+type bigBed 9
+allButtonPair on
+subGroup1 V Views REG=Regions
+subGroup2 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
+subGroup3 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h LongPec=LongPec
+dimensions dimX=T dimY=S
+dimensionXchecked CHMM
+sortOrder T=+ S=+ V=+
+
+  track comp2_reg
+  parent comp2
+  view REG
+  shortLabel comp2_reg
+  longLabel comp2_reg_long
+  visibility dense
+  type bigBed 9
+  viewUi on
+  
+  track comp11
+  shortLabel Dome_CHMM11
+  longLabel Dome_CHMM_long11
+  parent comp2_view on 
+  subGroups T=CHMM S=Dome
+#bigDataUrl danRer10/Dome_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp21
+  shortLabel Epi75_CHMM21
+  longLabel Epi75_CHMM_long21
+  parent comp2_reg on
+  subGroups T=CHMM S=Epi75
+#bigDataUrl danRer10/Epi75_ChromHMM.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp31
+  shortLabel Dome_cPADRE31
+  longLabel Dome_cPADRE_long31
+  parent comp2_reg on
+  subGroups T=cPADRE S=Dome
+#bigDataUrl danRer10/Dome_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp41
+  shortLabel Epi75_cPADRE41
+  longLabel Epi75_cPADRE_long41
+  parent comp2_reg on
+  subGroups T=cPADRE S=Epi75
+#bigDataUrl danRer10/Epi75_cPADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
