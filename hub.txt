@@ -30,7 +30,7 @@ sortOrder T=+ S=+
 
   track comp1
   shortLabel Dome_CHMM
-  longLabel CZL_comp1_long
+  longLabel Dome_CHMM_long
   parent comp on
   subGroups T=CHMM S=Dome
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
@@ -41,7 +41,7 @@ sortOrder T=+ S=+
   
   track comp2
   shortLabel Epi75_CHMM
-  longLabel CZL_comp2_long
+  longLabel Epi75_CHMM_long
   parent comp on
   subGroups T=CHMM S=Epi75
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
@@ -52,7 +52,7 @@ sortOrder T=+ S=+
 
   track comp3
   shortLabel Dome_cPADRE
-  longLabel CZL_comp3_long
+  longLabel Dome_cPADRE_long
   parent comp on
   subGroups T=cPADRE S=Dome
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
@@ -63,7 +63,7 @@ sortOrder T=+ S=+
   
   track comp4
   shortLabel Epi75_cPADRE
-  longLabel CZL_comp4_long
+  longLabel Epi75_cPADRE_long
   parent comp on
   subGroups T=cPADRE S=Epi75
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
