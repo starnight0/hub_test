@@ -188,7 +188,7 @@ sortOrder T=+ S=+ V=+
   shortLabel Dome_CHMM11
   longLabel Dome_CHMM_long11
   parent comp2_view on 
-  subGroups T=CHMM S=Dome
+  subGroups T=CHMM S=Dome V=REG
 #bigDataUrl danRer10/Dome_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
   visibility pack
@@ -199,7 +199,7 @@ sortOrder T=+ S=+ V=+
   shortLabel Epi75_CHMM21
   longLabel Epi75_CHMM_long21
   parent comp2_reg on
-  subGroups T=CHMM S=Epi75
+  subGroups T=CHMM S=Epi75 V=REG
 #bigDataUrl danRer10/Epi75_ChromHMM.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
   visibility pack
@@ -210,7 +210,7 @@ sortOrder T=+ S=+ V=+
   shortLabel Dome_cPADRE31
   longLabel Dome_cPADRE_long31
   parent comp2_reg on
-  subGroups T=cPADRE S=Dome
+  subGroups T=cPADRE S=Dome V=REG
 #bigDataUrl danRer10/Dome_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
   visibility pack
@@ -221,7 +221,7 @@ sortOrder T=+ S=+ V=+
   shortLabel Epi75_cPADRE41
   longLabel Epi75_cPADRE_long41
   parent comp2_reg on
-  subGroups T=cPADRE S=Epi75
+  subGroups T=cPADRE S=Epi75 V=REG
 #bigDataUrl danRer10/Epi75_cPADRE.1.bb
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
   visibility pack
