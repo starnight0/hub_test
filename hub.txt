@@ -21,7 +21,6 @@ compositeTrack on
 shortLabel CZL_comp
 longLabel CZL_comp_long
 type bigBed 9
-allButtonPair on
 subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
 subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h LongPec=LongPec
 dimensions dimX=T dimY=S
@@ -167,7 +166,6 @@ shortLabel CZL_comp2
 longLabel CZL_comp2_long
 visibility dense
 type bigBed 9
-allButtonPair on
 subGroup1 V Views REG=Regions
 subGroup2 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
 subGroup3 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h LongPec=LongPec
