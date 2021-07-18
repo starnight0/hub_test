@@ -167,3 +167,53 @@ sortOrder T=+ S=+
   visibility pack
   type bigBed 9
   itemRgb on
+  
+  track comp_DOPEs_Dome
+  shortLabel Dome_DOPEs
+  longLabel Dome_DOPEs_long
+  parent comp on
+  subGroups T=DOPEs S=Dome
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_DOPEs.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_Epi75
+  shortLabel Epi75_DOPEs
+  longLabel Epi75_DOPEs_long
+  parent comp on
+  subGroups T=DOPEs S=Epi75
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_DOPEs.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_DOPEs_Hpf12h
+  shortLabel DOPEs_Hpf12h
+  longLabel DOPEs_Hpf12h
+  parent comp on
+  subGroups T=DOPEs S=Hpf12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_Hpf12h.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_Prim5
+  shortLabel DOPEs_Prim5
+  longLabel DOPEs_Prim5
+  parent comp on
+  subGroups T=DOPEs S=Prim5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_Prim5.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_LongPec
+  shortLabel DOPEs_LongPec
+  longLabel DOPEs_LongPec
+  parent comp on
+  subGroups T=DOPEs S=LongPec
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_LongPec.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
