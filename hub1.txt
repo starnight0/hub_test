@@ -217,3 +217,183 @@ sortOrder T=+ S=+
   visibility pack
   type bigBed 9
   itemRgb on
+
+############# Tissue ##############
+track comp_tissue
+compositeTrack on
+shortLabel CZL_comp
+longLabel CZL_comp_long
+type bigBed 9
+subGroup1 T Tissue  blood=blood  brain=brain  brain_II=brain_II  differentiating_neurons=differentiating_neurons  endothelium=endothelium  epidermis=epidermis  epidermis_II=epidermis_II  epidermis_olfactory_pronephric=epidermis_olfactory_pronephric  midbrain=midbrain  muscle_I=muscle_I  muscle_II=muscle_II  muscle_III=muscle_III  neural_crest=neural_crest  optic_vesicle=optic_vesicle  pharyngeal_mesoderm=pharyngeal_mesoderm  spinal_cord=spinal_cord  tailbud=tailbud
+dimensions dimX=T
+sortOrder T=+
+
+  track comp_tissue_blood
+  shortLabel blood
+  longLabel blood
+  parent comp on
+  subGroups T=blood
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/blood.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_brain
+  shortLabel brain
+  longLabel brain
+  parent comp on
+  subGroups T=brain
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_brain_II
+  shortLabel brain_II
+  longLabel brain_II
+  parent comp on
+  subGroups T=brain_II
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain_II.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_differentiating_neurons
+  shortLabel differentiating_neurons
+  longLabel differentiating_neurons
+  parent comp on
+  subGroups T=differentiating_neurons
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/differentiating_neurons.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_endothelium
+  shortLabel endothelium
+  longLabel endothelium
+  parent comp on
+  subGroups T=endothelium
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/endothelium.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_epidermis
+  shortLabel epidermis
+  longLabel epidermis
+  parent comp on
+  subGroups T=epidermis
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_epidermis_II
+  shortLabel epidermis_II
+  longLabel epidermis_II
+  parent comp on
+  subGroups T=epidermis_II
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_II.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_epidermis_olfactory_pronephric
+  shortLabel epidermis_olfactory_pronephric
+  longLabel epidermis_olfactory_pronephric
+  parent comp on
+  subGroups T=epidermis_olfactory_pronephric
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_olfactory_pronephric.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_midbrain
+  shortLabel midbrain
+  longLabel midbrain
+  parent comp on
+  subGroups T=midbrain
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/midbrain.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_muscle_I
+  shortLabel muscle_I
+  longLabel muscle_I
+  parent comp on
+  subGroups T=muscle_I
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_I.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_muscle_II
+  shortLabel muscle_II
+  longLabel muscle_II
+  parent comp on
+  subGroups T=muscle_II
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_II.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_muscle_III
+  shortLabel muscle_III
+  longLabel muscle_III
+  parent comp on
+  subGroups T=muscle_III
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_III.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_neural_crest
+  shortLabel neural_crest
+  longLabel neural_crest
+  parent comp on
+  subGroups T=neural_crest
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/neural_crest.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_optic_vesicle
+  shortLabel optic_vesicle
+  longLabel optic_vesicle
+  parent comp on
+  subGroups T=optic_vesicle
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/optic_vesicle.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_pharyngeal_mesoderm
+  shortLabel pharyngeal_mesoderm
+  longLabel pharyngeal_mesoderm
+  parent comp on
+  subGroups T=pharyngeal_mesoderm
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/pharyngeal_mesoderm.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_spinal_cord
+  shortLabel spinal_cord
+  longLabel spinal_cord
+  parent comp on
+  subGroups T=spinal_cord
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/spinal_cord.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_tissue_tailbud
+  shortLabel tailbud
+  longLabel tailbud
+  parent comp on
+  subGroups T=tailbud
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/tailbud.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
