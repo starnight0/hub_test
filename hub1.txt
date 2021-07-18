@@ -397,3 +397,153 @@ sortOrder T=+
   visibility pack
   type bigBed 9
   itemRgb on
+
+########## SOM ##########
+track comp_SOMs
+compositeTrack on
+shortLabel CZL_SOMs
+longLabel CZL_SOM_classes
+type bigBed 9
+subGroup1 T SOM  C10=distal_PADREs_SOM_Class-10  C12=distal_PADREs_SOM_Class-12  C13=distal_PADREs_SOM_Class-13  C14=distal_PADREs_SOM_Class-14  C15=distal_PADREs_SOM_Class-15  C16=distal_PADREs_SOM_Class-16  C2=distal_PADREs_SOM_Class-2  C3=distal_PADREs_SOM_Class-3  C4=distal_PADREs_SOM_Class-4  C5=distal_PADREs_SOM_Class-5  C6=distal_PADREs_SOM_Class-6  C7=distal_PADREs_SOM_Class-7  C8=distal_PADREs_SOM_Class-8  C9=distal_PADREs_SOM_Class-9
+dimensions dimX=T
+sortOrder T=+
+
+  track comp_SOM_distal_PADREs_SOM_Class-10
+  shortLabel distal_PADREs_SOM_Class-10
+  longLabel distal_PADREs_SOM_Class-10
+  parent comp on
+  subGroups T=C10
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-10.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-12
+  shortLabel distal_PADREs_SOM_Class-12
+  longLabel distal_PADREs_SOM_Class-12
+  parent comp on
+  subGroups T=C12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-12.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-13
+  shortLabel distal_PADREs_SOM_Class-13
+  longLabel distal_PADREs_SOM_Class-13
+  parent comp on
+  subGroups T=C13
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-13.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-14
+  shortLabel distal_PADREs_SOM_Class-14
+  longLabel distal_PADREs_SOM_Class-14
+  parent comp on
+  subGroups T=C14
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-14.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-15
+  shortLabel distal_PADREs_SOM_Class-15
+  longLabel distal_PADREs_SOM_Class-15
+  parent comp on
+  subGroups T=C15
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-15.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-16
+  shortLabel distal_PADREs_SOM_Class-16
+  longLabel distal_PADREs_SOM_Class-16
+  parent comp on
+  subGroups T=C16
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-16.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-2
+  shortLabel distal_PADREs_SOM_Class-2
+  longLabel distal_PADREs_SOM_Class-2
+  parent comp on
+  subGroups T=C2
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-2.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-3
+  shortLabel distal_PADREs_SOM_Class-3
+  longLabel distal_PADREs_SOM_Class-3
+  parent comp on
+  subGroups T=C3
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-3.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-4
+  shortLabel distal_PADREs_SOM_Class-4
+  longLabel distal_PADREs_SOM_Class-4
+  parent comp on
+  subGroups T=C4
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-4.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-5
+  shortLabel distal_PADREs_SOM_Class-5
+  longLabel distal_PADREs_SOM_Class-5
+  parent comp on
+  subGroups T=C5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-5.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-6
+  shortLabel distal_PADREs_SOM_Class-6
+  longLabel distal_PADREs_SOM_Class-6
+  parent comp on
+  subGroups T=C6
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-6.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-7
+  shortLabel distal_PADREs_SOM_Class-7
+  longLabel distal_PADREs_SOM_Class-7
+  parent comp on
+  subGroups T=C7
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-7.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-8
+  shortLabel distal_PADREs_SOM_Class-8
+  longLabel distal_PADREs_SOM_Class-8
+  parent comp on
+  subGroups T=C8
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-8.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_SOM_distal_PADREs_SOM_Class-9
+  shortLabel distal_PADREs_SOM_Class-9
+  longLabel distal_PADREs_SOM_Class-9
+  parent comp on
+  subGroups T=C9
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-9.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
