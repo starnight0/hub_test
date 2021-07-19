@@ -1,0 +1,222 @@
+hub quickSearch
+shortLabel CZLtest
+longLabel CZLtest_long
+email genome-www@soe.ucsc.edu
+useOneFile on
+descriptionUrl hubDescription.html
+
+genome danRer10
+
+track comp
+compositeTrack on
+shortLabel CZL_comp
+longLabel CZL_comp_long
+type bigBed 9
+subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs DOPEs=DOPEs
+subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h P5=Prim5 LongPec=LongPec
+dimensions dimX=T dimY=S
+dimensionXchecked CHMM
+sortOrder T=+ S=+
+  
+  track comp_CHMM_Dome
+  shortLabel Dome_CHMM
+  longLabel Dome_CHMM_long
+  parent comp on
+  subGroups T=CHMM S=Dome
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_CHMM_Epi75
+  shortLabel Epi75_CHMM
+  longLabel Epi75_CHMM_long
+  parent comp on
+  subGroups T=CHMM S=Epi75
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_CHMM_Hpf12h
+  shortLabel CHMM_Hpf12h
+  longLabel CHMM_Hpf12h
+  parent comp on
+  subGroups T=CHMM S=Hpf12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Hpf12_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_CHMM_Prim5
+  shortLabel CHMM_Prim5
+  longLabel CHMM_Prim5
+  parent comp on
+  subGroups T=CHMM S=Prim5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Prim5_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_CHMM_LongPec
+  shortLabel CHMM_LongPec
+  longLabel CHMM_LongPec
+  parent comp on
+  subGroups T=CHMM S=LongPec
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/LongPec_ChromHMM.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_PADRE_Dome
+  shortLabel Dome_PADRE
+  longLabel Dome_PADRE_long
+  parent comp on
+  subGroups T=PADRE S=Dome
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_PADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_PADRE_Epi75
+  shortLabel Epi75_PADRE
+  longLabel Epi75_PADRE_long
+  parent comp on
+  subGroups T=PADRE S=Epi75
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_PADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_PADRE_Hpf12h
+  shortLabel PADRE_Hpf12h
+  longLabel PADRE_Hpf12h
+  parent comp on
+  subGroups T=PADRE S=Hpf12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_Hpf12h.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_PADRE_Prim5
+  shortLabel PADRE_Prim5
+  longLabel PADRE_Prim5
+  parent comp on
+  subGroups T=PADRE S=Prim5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_Prim5.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_PADRE_LongPec
+  shortLabel PADRE_LongPec
+  longLabel PADRE_LongPec
+  parent comp on
+  subGroups T=PADRE S=LongPec
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_LongPec.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_cPADRE_Dome
+  shortLabel Dome_cPADRE
+  longLabel Dome_cPADRE_long
+  parent comp on
+  subGroups T=cPADRE S=Dome
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_cPADRE_Epi75
+  shortLabel Epi75_cPADRE
+  longLabel Epi75_cPADRE_long
+  parent comp on
+  subGroups T=cPADRE S=Epi75
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_cPADRE.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_cPADRE_Hpf12h
+  shortLabel cPADRE_Hpf12h
+  longLabel cPADRE_Hpf12h
+  parent comp on
+  subGroups T=cPADRE S=Hpf12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_Hpf12h.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_cPADRE_Prim5
+  shortLabel cPADRE_Prim5
+  longLabel cPADRE_Prim5
+  parent comp on
+  subGroups T=cPADRE S=Prim5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_Prim5.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_cPADRE_LongPec
+  shortLabel cPADRE_LongPec
+  longLabel cPADRE_LongPec
+  parent comp on
+  subGroups T=cPADRE S=LongPec
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_LongPec.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_Dome
+  shortLabel Dome_DOPEs
+  longLabel Dome_DOPEs_long
+  parent comp on
+  subGroups T=DOPEs S=Dome
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_DOPEs.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_Epi75
+  shortLabel Epi75_DOPEs
+  longLabel Epi75_DOPEs_long
+  parent comp on
+  subGroups T=DOPEs S=Epi75
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_DOPEs.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+  track comp_DOPEs_Hpf12h
+  shortLabel DOPEs_Hpf12h
+  longLabel DOPEs_Hpf12h
+  parent comp on
+  subGroups T=DOPEs S=Hpf12
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_Hpf12h.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_Prim5
+  shortLabel DOPEs_Prim5
+  longLabel DOPEs_Prim5
+  parent comp on
+  subGroups T=DOPEs S=Prim5
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_Prim5.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+  
+  track comp_DOPEs_LongPec
+  shortLabel DOPEs_LongPec
+  longLabel DOPEs_LongPec
+  parent comp on
+  subGroups T=DOPEs S=LongPec
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/DOPEs_LongPec.1.bb
+  visibility pack
+  type bigBed 9
+  itemRgb on
+
+
+
