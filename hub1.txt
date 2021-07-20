@@ -221,8 +221,8 @@ sortOrder T=+ S=+
 ############# Tissue ##############
 track comp_tissue
 compositeTrack on
-shortLabel CZL_comp
-longLabel CZL_comp_long
+shortLabel Tissues
+longLabel Tissues
 type bigBed 9
 subGroup1 T Tissue  blood=blood  brain=brain  brain_II=brain_II  differentiating_neurons=differentiating_neurons  endothelium=endothelium  epidermis=epidermis  epidermis_II=epidermis_II  epidermis_olfactory_pronephric=epidermis_olfactory_pronephric  midbrain=midbrain  muscle_I=muscle_I  muscle_II=muscle_II  muscle_III=muscle_III  neural_crest=neural_crest  optic_vesicle=optic_vesicle  pharyngeal_mesoderm=pharyngeal_mesoderm  spinal_cord=spinal_cord  tailbud=tailbud
 dimensions dimX=T
@@ -401,8 +401,8 @@ sortOrder T=+
 ########## SOM ##########
 track comp_SOMs
 compositeTrack on
-shortLabel CZL_SOMs
-longLabel CZL_SOM_classes
+shortLabel SOMs
+longLabel SOM_classes
 type bigBed 9
 subGroup1 T SOM  C10=distal_PADREs_SOM_Class-10  C12=distal_PADREs_SOM_Class-12  C13=distal_PADREs_SOM_Class-13  C14=distal_PADREs_SOM_Class-14  C15=distal_PADREs_SOM_Class-15  C16=distal_PADREs_SOM_Class-16  C2=distal_PADREs_SOM_Class-2  C3=distal_PADREs_SOM_Class-3  C4=distal_PADREs_SOM_Class-4  C5=distal_PADREs_SOM_Class-5  C6=distal_PADREs_SOM_Class-6  C7=distal_PADREs_SOM_Class-7  C8=distal_PADREs_SOM_Class-8  C9=distal_PADREs_SOM_Class-9
 dimensions dimX=T
