@@ -407,6 +407,7 @@ type bigBed 6
 subGroup1 T SOM  C10=distal_PADREs_SOM_Class-10  C12=distal_PADREs_SOM_Class-12  C13=distal_PADREs_SOM_Class-13  C14=distal_PADREs_SOM_Class-14  C15=distal_PADREs_SOM_Class-15  C16=distal_PADREs_SOM_Class-16  C2=distal_PADREs_SOM_Class-2  C3=distal_PADREs_SOM_Class-3  C4=distal_PADREs_SOM_Class-4  C5=distal_PADREs_SOM_Class-5  C6=distal_PADREs_SOM_Class-6  C7=distal_PADREs_SOM_Class-7  C8=distal_PADREs_SOM_Class-8  C9=distal_PADREs_SOM_Class-9
 dimensions dimX=T
 sortOrder T=+
+html danRer10/SOM_classes/class
 
   track comp_SOM_distal_PADREs_SOM_Class-10
   shortLabel distal_PADREs_SOM_Class-10
