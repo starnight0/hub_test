@@ -245,6 +245,7 @@ sortOrder T=+
   subGroups T=brain
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_brain_II
@@ -254,6 +255,7 @@ sortOrder T=+
   subGroups T=brain_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain_II.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_differentiating_neurons
@@ -263,6 +265,7 @@ sortOrder T=+
   subGroups T=differentiating_neurons
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/differentiating_neurons.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_endothelium
@@ -272,6 +275,7 @@ sortOrder T=+
   subGroups T=endothelium
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/endothelium.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_epidermis
@@ -281,6 +285,7 @@ sortOrder T=+
   subGroups T=epidermis
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_epidermis_II
@@ -290,6 +295,7 @@ sortOrder T=+
   subGroups T=epidermis_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_II.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_epidermis_olfactory_pronephric
@@ -299,6 +305,7 @@ sortOrder T=+
   subGroups T=epidermis_olfactory_pronephric
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_olfactory_pronephric.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_midbrain
@@ -308,6 +315,7 @@ sortOrder T=+
   subGroups T=midbrain
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/midbrain.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_muscle_I
@@ -317,6 +325,7 @@ sortOrder T=+
   subGroups T=muscle_I
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_I.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_muscle_II
@@ -326,6 +335,7 @@ sortOrder T=+
   subGroups T=muscle_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_II.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_muscle_III
@@ -335,6 +345,7 @@ sortOrder T=+
   subGroups T=muscle_III
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_III.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_neural_crest
@@ -344,7 +355,7 @@ sortOrder T=+
   subGroups T=neural_crest
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/neural_crest.1.bb
   visibility pack
-  type bigBed 9
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_optic_vesicle
@@ -354,6 +365,7 @@ sortOrder T=+
   subGroups T=optic_vesicle
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/optic_vesicle.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_pharyngeal_mesoderm
@@ -363,6 +375,7 @@ sortOrder T=+
   subGroups T=pharyngeal_mesoderm
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/pharyngeal_mesoderm.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_spinal_cord
@@ -372,6 +385,7 @@ sortOrder T=+
   subGroups T=spinal_cord
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/spinal_cord.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
   track comp_tissue_tailbud
@@ -381,6 +395,7 @@ sortOrder T=+
   subGroups T=tailbud
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/tailbud.1.bb
   visibility pack
+  type bigBed 6
   itemRgb on
 
 ########## SOM ##########
