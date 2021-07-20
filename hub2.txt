@@ -12,7 +12,7 @@ compositeTrack on
 shortLabel CZL_comp
 longLabel CZL_comp_long
 type bigBed 9
-subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs DOPEs=DOPEs
+subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
 subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h P5=Prim5 LongPec=LongPec
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
@@ -73,7 +73,7 @@ sortOrder T=+ S=+
   longLabel Dome_PADRE_long
   parent comp on
   subGroups T=PADRE S=Dome
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_PADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Dome_PADREs.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -83,7 +83,7 @@ sortOrder T=+ S=+
   longLabel Epi75_PADRE_long
   parent comp on
   subGroups T=PADRE S=Epi75
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_PADRE.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Epi75_PADREs.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -93,7 +93,7 @@ sortOrder T=+ S=+
   longLabel PADRE_Hpf12h
   parent comp on
   subGroups T=PADRE S=Hpf12
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_Hpf12h.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Hpf12_PADREs.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -103,7 +103,7 @@ sortOrder T=+ S=+
   longLabel PADRE_Prim5
   parent comp on
   subGroups T=PADRE S=Prim5
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_Prim5.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Prim5_PADREs.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -113,7 +113,7 @@ sortOrder T=+ S=+
   longLabel PADRE_LongPec
   parent comp on
   subGroups T=PADRE S=LongPec
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/PADRE_LongPec.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/LongPec_PADREs.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -143,7 +143,7 @@ sortOrder T=+ S=+
   longLabel cPADRE_Hpf12h
   parent comp on
   subGroups T=cPADRE S=Hpf12
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_Hpf12h.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Hpf12_cPADRE.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -153,7 +153,7 @@ sortOrder T=+ S=+
   longLabel cPADRE_Prim5
   parent comp on
   subGroups T=cPADRE S=Prim5
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_Prim5.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Prim5_cPADRE.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -163,7 +163,7 @@ sortOrder T=+ S=+
   longLabel cPADRE_LongPec
   parent comp on
   subGroups T=cPADRE S=LongPec
-  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/cPADRE_LongPec.1.bb
+  bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/LongPec_cPADRE.1.bb
   visibility pack
   type bigBed 9
   itemRgb on
@@ -217,6 +217,3 @@ sortOrder T=+ S=+
   visibility pack
   type bigBed 9
   itemRgb on
-
-
-
