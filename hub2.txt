@@ -231,7 +231,7 @@ sortOrder T=+
   track comp_tissue_blood
   shortLabel blood
   longLabel blood
-  parent comp on
+  parent comp_tissue on
   subGroups T=blood
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/blood.1.bb
   visibility pack
