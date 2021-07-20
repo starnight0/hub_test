@@ -195,7 +195,7 @@ sortOrder T=+ S=+
   subGroups T=DOPEs S=Hpf12
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Hpf12_DOPEs.1.bb
   visibility pack
-  type bigBed 9
+  type bigBed 6
   itemRgb on
   
   track comp_DOPEs_Prim5
@@ -205,7 +205,7 @@ sortOrder T=+ S=+
   subGroups T=DOPEs S=Prim5
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/Prim5_DOPEs.1.bb
   visibility pack
-  type bigBed 9
+  type bigBed 6
   itemRgb on
   
   track comp_DOPEs_LongPec
@@ -215,7 +215,7 @@ sortOrder T=+ S=+
   subGroups T=DOPEs S=LongPec
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/LongPec_DOPEs.1.bb
   visibility pack
-  type bigBed 9
+  type bigBed 6
   itemRgb on
 
 ############# Tissue ##############
@@ -231,7 +231,7 @@ sortOrder T=+
   track comp_tissue_blood
   shortLabel blood
   longLabel blood
-  parent comp on
+  parent comp_tissue on
   subGroups T=blood
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/blood.1.bb
   visibility pack
@@ -241,7 +241,7 @@ sortOrder T=+
   track comp_tissue_brain
   shortLabel brain
   longLabel brain
-  parent comp on
+  parent comp_tissue on
   subGroups T=brain
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain.1.bb
   visibility pack
@@ -251,7 +251,7 @@ sortOrder T=+
   track comp_tissue_brain_II
   shortLabel brain_II
   longLabel brain_II
-  parent comp on
+  parent comp_tissue on
   subGroups T=brain_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/brain_II.1.bb
   visibility pack
@@ -261,7 +261,7 @@ sortOrder T=+
   track comp_tissue_differentiating_neurons
   shortLabel differentiating_neurons
   longLabel differentiating_neurons
-  parent comp on
+  parent comp_tissue on
   subGroups T=differentiating_neurons
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/differentiating_neurons.1.bb
   visibility pack
@@ -271,7 +271,7 @@ sortOrder T=+
   track comp_tissue_endothelium
   shortLabel endothelium
   longLabel endothelium
-  parent comp on
+  parent comp_tissue on
   subGroups T=endothelium
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/endothelium.1.bb
   visibility pack
@@ -281,7 +281,7 @@ sortOrder T=+
   track comp_tissue_epidermis
   shortLabel epidermis
   longLabel epidermis
-  parent comp on
+  parent comp_tissue on
   subGroups T=epidermis
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis.1.bb
   visibility pack
@@ -291,7 +291,7 @@ sortOrder T=+
   track comp_tissue_epidermis_II
   shortLabel epidermis_II
   longLabel epidermis_II
-  parent comp on
+  parent comp_tissue on
   subGroups T=epidermis_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_II.1.bb
   visibility pack
@@ -301,7 +301,7 @@ sortOrder T=+
   track comp_tissue_epidermis_olfactory_pronephric
   shortLabel epidermis_olfactory_pronephric
   longLabel epidermis_olfactory_pronephric
-  parent comp on
+  parent comp_tissue on
   subGroups T=epidermis_olfactory_pronephric
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/epidermis_olfactory_pronephric.1.bb
   visibility pack
@@ -311,7 +311,7 @@ sortOrder T=+
   track comp_tissue_midbrain
   shortLabel midbrain
   longLabel midbrain
-  parent comp on
+  parent comp_tissue on
   subGroups T=midbrain
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/midbrain.1.bb
   visibility pack
@@ -321,7 +321,7 @@ sortOrder T=+
   track comp_tissue_muscle_I
   shortLabel muscle_I
   longLabel muscle_I
-  parent comp on
+  parent comp_tissue on
   subGroups T=muscle_I
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_I.1.bb
   visibility pack
@@ -331,7 +331,7 @@ sortOrder T=+
   track comp_tissue_muscle_II
   shortLabel muscle_II
   longLabel muscle_II
-  parent comp on
+  parent comp_tissue on
   subGroups T=muscle_II
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_II.1.bb
   visibility pack
@@ -341,7 +341,7 @@ sortOrder T=+
   track comp_tissue_muscle_III
   shortLabel muscle_III
   longLabel muscle_III
-  parent comp on
+  parent comp_tissue on
   subGroups T=muscle_III
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/muscle_III.1.bb
   visibility pack
@@ -351,7 +351,7 @@ sortOrder T=+
   track comp_tissue_neural_crest
   shortLabel neural_crest
   longLabel neural_crest
-  parent comp on
+  parent comp_tissue on
   subGroups T=neural_crest
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/neural_crest.1.bb
   visibility pack
@@ -361,7 +361,7 @@ sortOrder T=+
   track comp_tissue_optic_vesicle
   shortLabel optic_vesicle
   longLabel optic_vesicle
-  parent comp on
+  parent comp_tissue on
   subGroups T=optic_vesicle
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/optic_vesicle.1.bb
   visibility pack
@@ -371,7 +371,7 @@ sortOrder T=+
   track comp_tissue_pharyngeal_mesoderm
   shortLabel pharyngeal_mesoderm
   longLabel pharyngeal_mesoderm
-  parent comp on
+  parent comp_tissue on
   subGroups T=pharyngeal_mesoderm
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/pharyngeal_mesoderm.1.bb
   visibility pack
@@ -381,7 +381,7 @@ sortOrder T=+
   track comp_tissue_spinal_cord
   shortLabel spinal_cord
   longLabel spinal_cord
-  parent comp on
+  parent comp_tissue on
   subGroups T=spinal_cord
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/spinal_cord.1.bb
   visibility pack
@@ -391,7 +391,7 @@ sortOrder T=+
   track comp_tissue_tailbud
   shortLabel tailbud
   longLabel tailbud
-  parent comp on
+  parent comp_tissue on
   subGroups T=tailbud
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/tissue_assignment/tailbud.1.bb
   visibility pack
@@ -411,7 +411,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-10
   shortLabel distal_PADREs_SOM_Class-10
   longLabel distal_PADREs_SOM_Class-10
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C10
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-10.1.bb
   visibility pack
@@ -421,7 +421,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-12
   shortLabel distal_PADREs_SOM_Class-12
   longLabel distal_PADREs_SOM_Class-12
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C12
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-12.1.bb
   visibility pack
@@ -431,7 +431,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-13
   shortLabel distal_PADREs_SOM_Class-13
   longLabel distal_PADREs_SOM_Class-13
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C13
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-13.1.bb
   visibility pack
@@ -441,7 +441,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-14
   shortLabel distal_PADREs_SOM_Class-14
   longLabel distal_PADREs_SOM_Class-14
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C14
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-14.1.bb
   visibility pack
@@ -451,7 +451,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-15
   shortLabel distal_PADREs_SOM_Class-15
   longLabel distal_PADREs_SOM_Class-15
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C15
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-15.1.bb
   visibility pack
@@ -461,7 +461,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-16
   shortLabel distal_PADREs_SOM_Class-16
   longLabel distal_PADREs_SOM_Class-16
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C16
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-16.1.bb
   visibility pack
@@ -471,7 +471,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-2
   shortLabel distal_PADREs_SOM_Class-2
   longLabel distal_PADREs_SOM_Class-2
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C2
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-2.1.bb
   visibility pack
@@ -481,7 +481,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-3
   shortLabel distal_PADREs_SOM_Class-3
   longLabel distal_PADREs_SOM_Class-3
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C3
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-3.1.bb
   visibility pack
@@ -491,7 +491,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-4
   shortLabel distal_PADREs_SOM_Class-4
   longLabel distal_PADREs_SOM_Class-4
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C4
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-4.1.bb
   visibility pack
@@ -501,7 +501,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-5
   shortLabel distal_PADREs_SOM_Class-5
   longLabel distal_PADREs_SOM_Class-5
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C5
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-5.1.bb
   visibility pack
@@ -511,7 +511,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-6
   shortLabel distal_PADREs_SOM_Class-6
   longLabel distal_PADREs_SOM_Class-6
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C6
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-6.1.bb
   visibility pack
@@ -521,7 +521,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-7
   shortLabel distal_PADREs_SOM_Class-7
   longLabel distal_PADREs_SOM_Class-7
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C7
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-7.1.bb
   visibility pack
@@ -531,7 +531,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-8
   shortLabel distal_PADREs_SOM_Class-8
   longLabel distal_PADREs_SOM_Class-8
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C8
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-8.1.bb
   visibility pack
@@ -541,7 +541,7 @@ sortOrder T=+
   track comp_SOM_distal_PADREs_SOM_Class-9
   shortLabel distal_PADREs_SOM_Class-9
   longLabel distal_PADREs_SOM_Class-9
-  parent comp on
+  parent comp_SOMs on
   subGroups T=C9
   bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/SOM_classes/distal_PADREs_SOM_Class-9.1.bb
   visibility pack
