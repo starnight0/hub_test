@@ -552,34 +552,34 @@ html danRer10/SOM_classes/class_desc
 track copes
 shortLabel copes
 longLabel copes
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/copes.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/copes.1.bb
 type bigBed 6
 itemRgb on
 
 track eRNA
 shortLabel eRNA
 longLabel eRNA
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/eRNA.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/eRNA.1.bb
 type bigBed 9
 itemRgb on
 
 track dopes_all
 shortLabel dopes_all
 longLabel dopes_all
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/dopes_all.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/dopes_all.1.bb
 type bigBed 6
 itemRgb on
 
 track enhancer_ensembles
 shortLabel enhancer_ensembles
 longLabel enhancer_ensembles
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/enhancer_ensembles.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/enhancer_ensembles.1.bb
 type bigBed 6
 itemRgb on
 
 track transgenic_enhancers
 shortLabel transgenic_enhancers
 longLabel transgenic_enhancers
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/transgenic_enhancers.bb
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/transgenic_enhancers.1.bb
 type bigBed 6
 itemRgb on
