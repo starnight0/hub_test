@@ -560,7 +560,7 @@ track eRNA
 shortLabel eRNA
 longLabel eRNA
 bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/eRNA.1.bb
-type bigBed 9
+type bigBed 6
 itemRgb on
 
 track dopes_all
