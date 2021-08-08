@@ -1,6 +1,6 @@
 hub quickSearch
-shortLabel CZLtest
-longLabel CZLtest_long
+shortLabel DanioCode
+longLabel Zebrafish_Encode
 email genome-www@soe.ucsc.edu
 useOneFile on
 descriptionUrl hubDescription.html
@@ -9,10 +9,10 @@ genome danRer10
 
 track comp
 compositeTrack on
-shortLabel CZL_comp
-longLabel CZL_comp_long
+shortLabel Stages_Types
+longLabel DevelopmentalStages_SegmentTypes
 type bigBed 9
-subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs
+subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs DOPEs=DOPEs
 subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h P5=Prim5 LongPec=LongPec
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
@@ -548,3 +548,38 @@ html danRer10/SOM_classes/class_desc
   visibility pack
   type bigBed 6
   itemRgb on
+
+track copes
+shortLabel copes
+longLabel copes
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/copes.bb
+type bigBed 6
+itemRgb on
+
+track eRNA
+shortLabel eRNA
+longLabel eRNA
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/eRNA.bb
+type bigBed 6
+itemRgb on
+
+track dopes
+shortLabel dopes
+longLabel dopes
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/dopes.bb
+type bigBed 6
+itemRgb on
+
+track enhancer_ensembles
+shortLabel enhancer_ensembles
+longLabel enhancer_ensembles
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/enhancer_ensembles.bb
+type bigBed 6
+itemRgb on
+
+track transgenic_enhancers
+shortLabel transgenic_enhancers
+longLabel transgenic_enhancers
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/transgenic_enhancers.bb
+type bigBed 6
+itemRgb on
