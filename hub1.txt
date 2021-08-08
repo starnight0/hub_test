@@ -563,10 +563,10 @@ bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/e
 type bigBed 6
 itemRgb on
 
-track dopes
-shortLabel dopes
-longLabel dopes
-bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/dopes.bb
+track dopes_all
+shortLabel dopes_all
+longLabel dopes_all
+bigDataUrl https://raw.githubusercontent.com/starnight0/hub_test/main/danRer10/dopes_all.bb
 type bigBed 6
 itemRgb on
 
