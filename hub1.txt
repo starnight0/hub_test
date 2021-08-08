@@ -13,7 +13,7 @@ shortLabel Stages_Types
 longLabel DevelopmentalStages_SegmentTypes
 type bigBed 9
 subGroup1 T SegmentType CHMM=ChromHMM PADRE=ATAC_ChromHMM cPADRE=consensus_PADREs DOPEs=DOPEs
-subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h P5=Prim5 LongPec=LongPec
+subGroup2 S Stage Dome=Dome Epi75=Epi75 Hpf12=Hpf12h Prim5=Prim5 LongPec=LongPec
 dimensions dimX=T dimY=S
 dimensionXchecked CHMM
 sortOrder T=+ S=+
